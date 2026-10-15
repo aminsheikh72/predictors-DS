@@ -1,63 +1,39 @@
-# a= 12,13,44,55
+# a = [20,40,50,60]
 # print(type(a))
-
-# a = [1,23,4,55,66,77]
-# print(a)
-
-# a = 20
+# a = 30
 # b = a
 # b = 50
 # print(a)
 # print(b)
+# a = [1,2,3,4,5]
+# b = a
+# b[0] = 50
+# print(a)
+# print(b)
+# name ="eskills"
+# b = name
+# b[0] ="s"
+# print(b)
 
-# a = [22,55,66,22,50]
 # b = a
 # b.append(20)
 # print(a)
 # print(b)
 
-# name = "eskills"
-# name[0] = "a"
-# print(name)
-
-# a = [11,11,20,5,33,33,1.5,"hello", print(),True]
-
-# print(a)
-
-# a = [10,20,30,40]
-# print(len(a))
-# for i in range(0,len(a)):
-#     print(a[i])
-
-a = [10,50,30,20,40]
-# a.append(50)
-# print(a)
-
-# a.insert(2,25)
-# print(a)
-
-
-# print(a.index(20))
-
+a = [22,33,44,33,55]
+# a.append(66)
+# a.insert(2,100)
+# a.extend([40,50])
 # a.pop()
-
-# a.clear()
-
-# a.remove(20)
-
-# a.pop(3)
-
-# a.extend([11,22,33])
-# print(a.count(20))
-
+# b = a.index(44)
+# print(b)
 # a.sort()
-
 # a.reverse()
-
 # b = a.copy()
-
-# b.append(77)
-# print(a)
+# b[0] = 200
+# print(b)
+# a.clear()
+# b = a.count(33)
 # print(b)
 
 
@@ -299,7 +275,7 @@ a = [10,50,30,20,40]
 #         if 66 < 3:
 #             second = smallest
 #             smallest = i
-#         elif 66 < 5 and i != smallest:
+#         elif i < second and i != smallest:
 #             second = i
         
 #     return second
@@ -309,14 +285,3 @@ a = [10,50,30,20,40]
 # result = sec_smallest([22,3,44,5,66])
 # print(result)
 
-# 23. Separate Even and Odd: Ek list ke even aur odd numbers ki do alag lists banao.
-# 24. Sum of Even Numbers: List ke sirf even numbers ka sum nikalo.
-# 25. Average of List: List ke sabhi numbers ka average calculate karo.
-# Python List Practice Worksheet Page 2
-# 26. Merge Two Lists: Do lists ko combine karke ek nayi list banao.
-# 27. Common Elements: Do lists me common elements find karo. Example: [1, 2, 3, 4] aur [3, 4, 5, 6].
-# 28. Move Zeros: List [0, 1, 0, 3, 12, 0, 5] ke saare zeros ko end me move karo; baaki numbers ka order
-# same rakho.
-# 29. Rotate List: List [1, 2, 3, 4, 5] ko ek position right rotate karo. Output: [5, 1, 2, 3, 4].
-# 30. Frequency Counter: List me har element ki frequency print karo. Example: [1, 2, 2, 3, 1, 2] ka output:
-# 1: 2, 2: 3, 3: 1.
